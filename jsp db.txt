@@ -1,0 +1,19 @@
+insert into tblSawon(id, name, pass, age, addr, extension, dept)
+values('hong','홍길동', '1111', 20, '서울', '3341', '영업');
+
+insert into tblSawon(id, name, pass, age, addr, extension, dept)
+values('lim','홍길동', '1111', 20, '서울', '3341', '영업');
+
+insert into tblSawon(id, name, pass, age, addr, extension, dept)
+values('shin','홍길동', '1111', 20, '서울', '3341', '영업');
+
+insert into tblSawon(id, name, pass, age, addr, extension, dept)
+values('jang','홍길동', '1111', 20, '서울', '3341', '영업');
+
+insert into tblSawon(id, name, pass, age, addr, extension, dept)
+values('kang','홍길동', '1111', 20, '서울', '3341', '영업');
+
+select * from TBLSAWON;
+select * from tblSawon where no=1;
+
+desc tblSawon;
